@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CobaUI.CobaUIBuatKalkulator">
+    <ContentPage.Content>
+        <Grid Padding="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <StackLayout Grid.Column="0">
+                <Label Text="Bilangan 1:" />
+                <Entry x:Name="etrBil1" Placeholder="0" Keyboard="Numeric"/>
+                <Label Text="Bilangan 2:" />
+                <Entry x:Name="etrBil2" Placeholder="0" Keyboard="Numeric"/>
+                <Label Text="Hasil:" />
+                <Entry x:Name="etrHasil" Placeholder="0" IsEnabled="False"/>
+            </StackLayout>
+            <StackLayout Grid.Column="1">
+                <Button x:Name="btnTambah" Text="+" Clicked="Kalkulasi" />
+                <Button x:Name="btnKurang" Text="-" Clicked="Kalkulasi" />
+                <Button x:Name="btnKali" Text="x" Clicked="Kalkulasi" />
+                <Button x:Name="btnBagi" Text="/" Clicked="Kalkulasi" />
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

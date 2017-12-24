@@ -11,5 +11,7 @@ namespace CobaListView.Models
         public string Deskripsi { get; set; }
 
         public string Sumber { get; set; }
+
+        public string KodeWarna { get; set; }
     }
 }

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CobaListView.Views.ListItemCustom">
+    <ContentPage.Content>
+        <ListView x:Name="listView" ItemsSource="{Binding ListItems}" RowHeight="80" BackgroundColor="DarkGray" ItemTapped="ListViewItemTapped">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal" Padding="10">
+                            <Image Source="{Binding Sumber}" />
+                            <StackLayout HorizontalOptions="StartAndExpand" Orientation="Vertical">
+                                <Label HorizontalOptions="Start" FontSize="20" FontAttributes="Bold" TextColor="White" Text="{Binding Judul}"/>
+                                <Label HorizontalOptions="Start" FontSize="12" TextColor="White" Text="{Binding Deskripsi}"/>
+                            </StackLayout>
+                            <Label HorizontalOptions="End" FontSize="25" TextColor="LightSkyBlue" Text="{Binding KodeWarna}" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>

@@ -20,8 +20,11 @@ namespace CobaListView
             //MainPage = new CobaListView.Views.ListItemPage();
 
             // CobaListView #3
-            MainPage = new CobaListView.Views.ListItemImageCell();
-		}
+            //MainPage = new CobaListView.Views.ListItemImageCell();
+
+            // CobaListView #4
+            MainPage = new CobaListView.Views.ListItemCustom();
+        }
 
 		protected override void OnStart ()
 		{

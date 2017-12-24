@@ -4,16 +4,16 @@
              x:Class="CobaUI.CobaUIAbsoluteLayout">
     <ContentPage.Content>
         <AbsoluteLayout>
-            <Label Text="I'm centered on iPhone 4 but no other device" 
+            <Label Text="Text ini di tengah pada iPhone 4 tapi tidak di perangkat lain" 
                    AbsoluteLayout.LayoutBounds="115,150,100,100" LineBreakMode="WordWrap" />
-            <Label Text="I'm bottom center on every device."
-                   AbsoluteLayout.LayoutBounds=".5,1,.5,.1" AbsoluteLayout.LayoutFlags="All"
+            <Label Text="Text ini berada di tengah-bawah di setiap perangkat"
+                   AbsoluteLayout.LayoutBounds=".5,1,.5,.15" AbsoluteLayout.LayoutFlags="All"
                    LineBreakMode="WordWrap" />
-            <BoxView Color="Olive" AbsoluteLayout.LayoutBounds="1,.5, 25, 100" 
+            <BoxView Color="Red" AbsoluteLayout.LayoutBounds="1,.5, 25, 150" 
                      AbsoluteLayout.LayoutFlags="PositionProportional" />
-            <BoxView Color="Red" AbsoluteLayout.LayoutBounds="0,.5,25,100"
+            <BoxView Color="Green" AbsoluteLayout.LayoutBounds="0,.5,25,150"
                      AbsoluteLayout.LayoutFlags="PositionProportional" />
-            <BoxView Color="Blue" AbsoluteLayout.LayoutBounds=".5,0,100,25"
+            <BoxView Color="Blue" AbsoluteLayout.LayoutBounds=".5,0,150,25"
                      AbsoluteLayout.LayoutFlags="PositionProportional" />
         </AbsoluteLayout>
     </ContentPage.Content>

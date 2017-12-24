@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CobaUI.CobaUIRelativeLayout">
     <ContentPage.Content>
-        <RelativeLayout>
+        <RelativeLayout BackgroundColor="Green">
             <BoxView Color="Red" x:Name="redBox"
                      RelativeLayout.YConstraint=
                      "{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=.15,Constant=0}"

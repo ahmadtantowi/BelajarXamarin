@@ -23,8 +23,11 @@ namespace CobaUI
             //MainPage = new CobaUI.CobaUIRelativeLayout();
 
             // CobaUI #4
-            MainPage = new CobaUI.CobaUIGridLayout();
-		}
+            //MainPage = new CobaUI.CobaUIGridLayout();
+
+            // CobaUI #5
+            MainPage = new CobaUI.CobaUIBuatKalkulator();
+        }
 
 		protected override void OnStart ()
 		{

@@ -86,15 +86,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\pertama.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\kedua.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\ketiga.png" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\drawable\pertama.png" />
   </ItemGroup>
   <ItemGroup>
