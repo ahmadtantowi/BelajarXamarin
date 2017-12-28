@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CobaNav.CobaNavAlert">
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <Label Text="DisplayAlert" FontSize="Large" HorizontalOptions="Center" />
+            <Button Text="Alert Simpel" Clicked="TampilkanAlertSimpel" />
+            <Button Text="Alert Ya/Tidak" Clicked="TampilkanAlertYaTidak" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CobaNav.CobaNavMenu"
+             Title="Navigasi dengan toolbar">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Halaman Pertama" Order="Secondary" Clicked="Navigasikan" CommandParameter="CobaNavHierarchy1" />
+        <ToolbarItem Text="Halaman Kedua" Order="Secondary" Clicked="Navigasikan" CommandParameter="CobaNavHierarchy2" />
+    </ContentPage.ToolbarItems>
+</ContentPage>

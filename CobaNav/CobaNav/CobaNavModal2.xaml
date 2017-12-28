@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CobaNav.CobaNavModal2">
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <Label Text="Halaman Kedua Modal" FontSize="Large" />
+            <!--<Label FontSize="Medium" x:Name="lblId" />-->
+            <Button Text="Pergi ke halaman satu (modal)" x:Name="btnHalSatu" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
