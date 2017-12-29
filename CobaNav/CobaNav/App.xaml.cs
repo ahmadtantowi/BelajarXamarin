@@ -14,7 +14,7 @@ namespace CobaNav
 			InitializeComponent();
 
             // CobaNav #1
-            //MainPage = new NavigationPage(new CobaNavHierarchy1());
+            MainPage = new NavigationPage(new CobaNavHierarchy1());
 
             // CobaNav #2
             //MainPage = new NavigationPage(new CobaNavMenu());
@@ -23,15 +23,18 @@ namespace CobaNav
             //MainPage = new CobaNavModal1();
 
             // CobaNav #4
-            MainPage = new CobaNavPopupAlert();
+            //MainPage = new CobaNavTab();
 
             // CobaNav #5
-            //MainPage = new MainPage();
+            //MainPage = new CobaNavPopupAlert();
 
             // CobaNav #6
-            //MainPage = new NavigationPage(new CobaNavHierarchy1());
+            //MainPage = new MainPage();
 
             // CobaNav #7
+            //MainPage = new NavigationPage(new CobaNavHierarchy1());
+
+            // CobaNav #8
             Application.Current.Properties["id"] = "1147050013";
             //MainPage = new CobaNavModal1();
         }
